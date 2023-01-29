@@ -54,6 +54,9 @@ Classes inherited from Base Model:
 * [state.py](/models/state.py)
 * [user.py](/models/user.py)
 
+#### `web_dynamic/` directory contains the dynamic version of AirBnB clone(AirBnB_clone_v4):
+
+
 #### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :
 [file_storage.py](/models/engine/file_storage.py) - serializes instances to a JSON file & deserializes back to instances
 * `def all(self)` - returns the dictionary __objects
@@ -158,6 +161,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Ikenna Ezeanyaeji - [Github](https://github.com/charlykso) / [Twitter](https://twitter.com/Remigiusikenna)
 
 Second part of Airbnb: Joann Vuong
 ## License
