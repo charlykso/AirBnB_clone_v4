@@ -162,6 +162,7 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 Ikenna Ezeanyaeji - [Github](https://github.com/charlykso) / [Twitter](https://twitter.com/Remigiusikenna)
+Glory Cornel - [Github](https://github.com/Glorycornel) / [Twitter](https://twitter.com/GloryCornel)
 
 Second part of Airbnb: Joann Vuong
 ## License
