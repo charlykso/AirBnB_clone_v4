@@ -15,7 +15,7 @@
   <body>
     <header>
       <div class="logo"></div>
-	  <div class="api_status"></div>
+	  <div class="api_status" id="api_status"></div>
     </header>
     <div class="container">
       <section class="filters">
@@ -26,10 +26,10 @@
 	    <ul>
 	      {% for state in states | sort(attribute='name') %}
 	      <li>
-			<input type="checkbox" data-id="{{state.id}}" data-name="{{state.name}}">
+			<input type="checkbox" data-id="{{state[0].id}}" data-name="{{state[0].name}}">
 		<h2>{{ state[0].name }}:</h2>
 		<ul>
-		  {% for city in state[1].cities | sort(attribute='name') %}
+		  {% for city in state[0].cities | sort(attribute='name') %}
 		  <li>
 			<input type="checkbox" data-id="{{city.id}}" data-name="{{city.name}}">
 			{{ city.name }}
