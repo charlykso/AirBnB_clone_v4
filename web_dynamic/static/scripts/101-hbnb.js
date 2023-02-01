@@ -3,7 +3,15 @@
 let checked_box = {};
 $(document).ready(function () {
 	$('input:checkbox').change(function () {
-		
+		// if ($(this).is(':checked')) {
+		// 	console.log($(this).data('name'));
+			
+		// }
+		// $('div.amenities h4').html(function () {
+		// 	Object.keys(checked_box).forEach(function (key) {
+		// 		amenities.push(checked_box[key]);
+		// 	});
+		// })
 		if ($(this).is(':checked')) {
 			checked_box[$(this).data('id')] = $(this).data('name');
 		}
